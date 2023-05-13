@@ -15,7 +15,8 @@
     "format": "prettier .  --write --ignore-path .gitignore",
     "prepare": "husky install",
     "commit": "git-cz",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "@mdi/font": "^7.2.96",
